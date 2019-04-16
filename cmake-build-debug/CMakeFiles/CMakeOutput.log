@@ -10,35 +10,35 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04169/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_04169.dir/build.make CMakeFiles/cmTC_04169.dir/build
-Building C object CMakeFiles/cmTC_04169.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_04169.dir/testCCompiler.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_04169
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04169.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_04169.dir/testCCompiler.c.o  -o cmTC_04169 
+Run Build Command:"/usr/bin/make" "cmTC_70341/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70341.dir/build.make CMakeFiles/cmTC_70341.dir/build
+Building C object CMakeFiles/cmTC_70341.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_70341.dir/testCCompiler.c.o   -c /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_70341
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70341.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_70341.dir/testCCompiler.c.o  -o cmTC_70341 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_602cd/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_602cd.dir/build.make CMakeFiles/cmTC_602cd.dir/build
-Building C object CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_602cd
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_602cd.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o  -o cmTC_602cd 
+Run Build Command:"/usr/bin/make" "cmTC_080ae/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_080ae.dir/build.make CMakeFiles/cmTC_080ae.dir/build
+Building C object CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_080ae
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080ae.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o  -o cmTC_080ae 
 Apple LLVM version 10.0.1 (clang-1001.0.46.3)
 Target: x86_64-apple-darwin18.0.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_602cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_080ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-450.3
 BUILD 18:01:43 Mar 13 2019
 configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -50,20 +50,20 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_602cd/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_602cd.dir/build.make CMakeFiles/cmTC_602cd.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_602cd]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_602cd.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o  -o cmTC_602cd ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_080ae/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_080ae.dir/build.make CMakeFiles/cmTC_080ae.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_080ae]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080ae.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o  -o cmTC_080ae ]
   ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.3)]
   ignore line: [Target: x86_64-apple-darwin18.0.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_602cd -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_080ae -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -76,11 +76,11 @@ Parsed C implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_602cd] ==> ignore
+    arg [cmTC_080ae] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_602cd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_080ae.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
@@ -97,15 +97,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_738c9/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_738c9.dir/build.make CMakeFiles/cmTC_738c9.dir/build
-Building C object CMakeFiles/cmTC_738c9.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_738c9.dir/feature_tests.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_738c9
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_738c9.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_738c9.dir/feature_tests.c.o  -o cmTC_738c9 
+Run Build Command:"/usr/bin/make" "cmTC_f5699/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f5699.dir/build.make CMakeFiles/cmTC_f5699.dir/build
+Building C object CMakeFiles/cmTC_f5699.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_f5699.dir/feature_tests.c.o   -c /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5699
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5699.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5699.dir/feature_tests.c.o  -o cmTC_f5699 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -115,15 +115,15 @@ Linking C executable cmTC_738c9
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c8f4/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8c8f4.dir/build.make CMakeFiles/cmTC_8c8f4.dir/build
-Building C object CMakeFiles/cmTC_8c8f4.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_8c8f4.dir/feature_tests.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8c8f4
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8f4.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8c8f4.dir/feature_tests.c.o  -o cmTC_8c8f4 
+Run Build Command:"/usr/bin/make" "cmTC_752b2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_752b2.dir/build.make CMakeFiles/cmTC_752b2.dir/build
+Building C object CMakeFiles/cmTC_752b2.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_752b2.dir/feature_tests.c.o   -c /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_752b2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_752b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_752b2.dir/feature_tests.c.o  -o cmTC_752b2 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -133,15 +133,15 @@ Linking C executable cmTC_8c8f4
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94462/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_94462.dir/build.make CMakeFiles/cmTC_94462.dir/build
-Building C object CMakeFiles/cmTC_94462.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_94462.dir/feature_tests.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_94462
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94462.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_94462.dir/feature_tests.c.o  -o cmTC_94462 
+Run Build Command:"/usr/bin/make" "cmTC_8893e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8893e.dir/build.make CMakeFiles/cmTC_8893e.dir/build
+Building C object CMakeFiles/cmTC_8893e.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_8893e.dir/feature_tests.c.o   -c /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8893e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8893e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8893e.dir/feature_tests.c.o  -o cmTC_8893e 
 
 
     Feature record: C_FEATURE:1c_function_prototypes

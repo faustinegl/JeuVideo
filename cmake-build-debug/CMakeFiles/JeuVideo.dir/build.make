@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo
+CMAKE_SOURCE_DIR = /Users/Faustine/Desktop/JeuVideo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Faustine/Desktop/JeuVideo/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/JeuVideo.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/JeuVideo.dir/flags.make
 
 CMakeFiles/JeuVideo.dir/main.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JeuVideo.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/main.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/JeuVideo.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/main.c.o   -c /Users/Faustine/Desktop/JeuVideo/main.c
 
 CMakeFiles/JeuVideo.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/main.c > CMakeFiles/JeuVideo.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideo/main.c > CMakeFiles/JeuVideo.dir/main.c.i
 
 CMakeFiles/JeuVideo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/main.c -o CMakeFiles/JeuVideo.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideo/main.c -o CMakeFiles/JeuVideo.dir/main.c.s
 
 CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o: ../Vaisseau/Vaisseau.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o   -c /Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c
 
 CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.c > CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c > CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i
 
 CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.c -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s
 
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o: ../Ennemis/Ennemis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/Ennemis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o   -c /Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.c
 
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/Ennemis.c > CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.c > CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.i
 
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/Ennemis.c -o CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.c -o CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.s
 
 CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o: ../Etoile/Etoile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Etoile/Etoile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o   -c /Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.c
 
 CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Etoile/Etoile.c > CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.c > CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.i
 
 CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Etoile/Etoile.c -o CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.c -o CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.s
 
 CMakeFiles/JeuVideo.dir/Missile/Missile.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/Missile/Missile.c.o: ../Missile/Missile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Missile/Missile.c.o   -c /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Missile/Missile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Missile/Missile.c.o   -c /Users/Faustine/Desktop/JeuVideo/Missile/Missile.c
 
 CMakeFiles/JeuVideo.dir/Missile/Missile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Missile/Missile.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Missile/Missile.c > CMakeFiles/JeuVideo.dir/Missile/Missile.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideo/Missile/Missile.c > CMakeFiles/JeuVideo.dir/Missile/Missile.c.i
 
 CMakeFiles/JeuVideo.dir/Missile/Missile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Missile/Missile.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Missile/Missile.c -o CMakeFiles/JeuVideo.dir/Missile/Missile.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideo/Missile/Missile.c -o CMakeFiles/JeuVideo.dir/Missile/Missile.c.s
 
 # Object files for target JeuVideo
 JeuVideo_OBJECTS = \
@@ -179,7 +179,7 @@ JeuVideo: /usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_video.5.2.4.dylib
 JeuVideo: /usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_video.5.2.dylib
 JeuVideo: /usr/local/Cellar/allegro/5.2.4.0/lib/liballegro_video.dylib
 JeuVideo: CMakeFiles/JeuVideo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable JeuVideo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable JeuVideo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JeuVideo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/JeuVideo.dir/clean:
 .PHONY : CMakeFiles/JeuVideo.dir/clean
 
 CMakeFiles/JeuVideo.dir/depend:
-	cd /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug /Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Faustine/Desktop/JeuVideo/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Faustine/Desktop/JeuVideo /Users/Faustine/Desktop/JeuVideo /Users/Faustine/Desktop/JeuVideo/cmake-build-debug /Users/Faustine/Desktop/JeuVideo/cmake-build-debug /Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/JeuVideo.dir/depend
 

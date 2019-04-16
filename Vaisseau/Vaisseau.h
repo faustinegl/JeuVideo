@@ -17,20 +17,20 @@ typedef struct {
     int vie;
     int score;
     ALLEGRO_BITMAP *image;
-} Vaisseau;
+} Heros;
 
-void init_vaisseau(Vaisseau *vaisseau);
+void init_vaisseau(Heros *vaisseau);
 
-void affiche_vaisseau(Vaisseau *vaisseau);
+void affiche_vaisseau(Heros *vaisseau);
 
-void monte(Vaisseau *vaisseau);
+void monte(Heros *vaisseau);
 
-void descend(Vaisseau *vaisseau);
+void descend(Heros *vaisseau);
 
-void gauche(Vaisseau *vaisseau);
+void gauche(Heros *vaisseau);
 
-void droite(Vaisseau *vaisseau);
+void droite(Heros *vaisseau);
 
-void collision_vaisseau(Vaisseau *vaisseau, Ennemi ennemis[]);
+void collision_vaisseau(Heros *vaisseau, Ennemi ennemis[]);
 
 #endif //JEUVIDEO_VAISSEAU_H

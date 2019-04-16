@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/ennemis.h
+/Users/Faustine/Desktop/JeuVideo/Ennemis/ennemis.h
 stdlib.h
 -
 allegro5/allegro.h
@@ -14,13 +14,13 @@ allegro5/allegro.h
 allegro5/allegro_primitives.h
 -
 ../constant.h
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/constant.h
+/Users/Faustine/Desktop/JeuVideo/constant.h
 
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.c
+/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c
 Vaisseau.h
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.h
+/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.h
 
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.h
+/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.h
 allegro5/allegro.h
 -
 allegro5/allegro_primitives.h
@@ -28,11 +28,11 @@ allegro5/allegro_primitives.h
 allegro5/allegro_image.h
 -
 ../constant.h
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/constant.h
+/Users/Faustine/Desktop/JeuVideo/constant.h
 ../Ennemis/ennemis.h
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/ennemis.h
+/Users/Faustine/Desktop/JeuVideo/Ennemis/ennemis.h
 
-/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/constant.h
+/Users/Faustine/Desktop/JeuVideo/constant.h
 
 /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/alcompat.h
 

@@ -33,7 +33,7 @@ void avance_missiles(Missile missiles[]) {
     }
 }
 
-void lancement_missile(Vaisseau *vaisseau, Missile missiles[]) {
+void lancement_missile(Heros *vaisseau, Missile missiles[]) {
     int i = 0;
     for (i = 0; i < NB_MAX_MISSILES; i++) {
         if (!missiles[i].actif) {
@@ -45,7 +45,7 @@ void lancement_missile(Vaisseau *vaisseau, Missile missiles[]) {
     }
 }
 
-void collision_missile(Missile missiles[], Ennemi ennemis[], Vaisseau *vaisseau) {
+void collision_missile(Missile missiles[], Ennemi ennemis[], Heros *vaisseau) {
     int i = 0, j = 0;
     for (i = 0; i < NB_MAX_ENNEMIS; i++) {
         if (ennemis[i].actif) {

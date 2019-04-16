@@ -19,7 +19,7 @@ void erreur(const char *txt) {
     exit(EXIT_FAILURE);
 }
 
-void affiche_infos(Vaisseau vaisseau, ALLEGRO_FONT *font, ALLEGRO_FONT *fontBig) {
+void affiche_infos(Heros vaisseau, ALLEGRO_FONT *font, ALLEGRO_FONT *fontBig) {
     if (vaisseau.vie <= 0) {
         al_draw_textf(fontBig, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
                       SCREEN_HEIGHT / 2 - al_get_font_ascent(fontBig), ALLEGRO_ALIGN_CENTER, "Game Over");
@@ -43,7 +43,7 @@ int main() {
     ALLEGRO_FONT *fontBangers60;
     ALLEGRO_FONT *fontBangers160;
 
-    Vaisseau vaisseau;
+    Heros vaisseau;
     Missile missiles[NB_MAX_MISSILES];
     Ennemi ennemis[NB_MAX_ENNEMIS];
     Etoile etoiles[NB_MAX_ETOILES];

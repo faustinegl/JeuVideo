@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Ennemis/Ennemis.c" "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
-  "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Etoile/Etoile.c" "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
-  "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Missile/Missile.c" "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
-  "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/Vaisseau/Vaisseau.c" "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
-  "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/main.c" "/Users/Faustine/Documents/GitHub/Projet-Jeu-Video/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/main.c.o"
+  "/Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.c" "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
+  "/Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.c" "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
+  "/Users/Faustine/Desktop/JeuVideo/Missile/Missile.c" "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
+  "/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c" "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
+  "/Users/Faustine/Desktop/JeuVideo/main.c" "/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -22,8 +22,8 @@ void affiche_missiles(Missile missiles[]);
 
 void avance_missiles(Missile missiles[]);
 
-void lancement_missile(Vaisseau *vaisseau, Missile missiles[]);
+void lancement_missile(Heros *vaisseau, Missile missiles[]);
 
-void collision_missile(Missile missiles[], Ennemi ennemis[], Vaisseau *vaisseau);
+void collision_missile(Missile missiles[], Ennemi ennemis[], Heros *vaisseau);
 
 #endif //JEUVIDEO_MISSILE_H
