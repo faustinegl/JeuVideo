@@ -16,8 +16,8 @@ void init_vaisseau(Heros *heros) {
     if (!heros->image) {
         heros->image = al_create_bitmap(heros->width, heros->height);
         al_set_target_bitmap(heros->image);
-        al_clear_to_color(NOIR);
-        al_draw_filled_triangle(0, 0, 0, heros->height, heros->width, heros->height / 2,
+       // al_clear_to_color(al_map_rgb(100, 0, 255));
+        al_draw_filled_triangle(10, 100, 0, heros->height, heros->width, heros->height / 2,
                                 al_map_rgb(200, 200, 255));
     }
     else {
