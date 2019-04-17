@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug"/>
+				<Option working_dir="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug"/>
+				<Option working_dir="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug"/>
+				<Option working_dir="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JeuVideo">
-				<Option output="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/JeuVideo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug"/>
+				<Option output="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/JeuVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 JeuVideo"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 JeuVideo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="JeuVideo/fast">
-				<Option output="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/JeuVideo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Faustine/Desktop/JeuVideo/cmake-build-debug"/>
+				<Option output="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/JeuVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,44 +73,44 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 JeuVideo/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 JeuVideo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.c">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Ennemis/Ennemis.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Ennemis/Ennemis.h">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Ennemis/Ennemis.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.c">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Etoile/Etoile.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Etoile/Etoile.h">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Etoile/Etoile.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Missile/Missile.c">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Missile/Missile.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Missile/Missile.h">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Missile/Missile.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.c">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Vaisseau/Vaisseau.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/Vaisseau/Vaisseau.h">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/Vaisseau/Vaisseau.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/constant.h">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/constant.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/main.c">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/main.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideo/CMakeLists.txt">
+		<Unit filename="/Users/luciedumont/Desktop/JeuVideoo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

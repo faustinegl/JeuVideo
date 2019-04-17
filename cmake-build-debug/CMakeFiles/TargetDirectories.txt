@@ -1,3 +1,3 @@
-/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Faustine/Desktop/JeuVideo/cmake-build-debug/CMakeFiles/JeuVideo.dir
+/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/luciedumont/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir
