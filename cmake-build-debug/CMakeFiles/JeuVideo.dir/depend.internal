@@ -129,8 +129,8 @@ CMakeFiles/JeuVideo.dir/Missile/Missile.c.o
  /Users/Faustine/Desktop/JeuVideoo/Ennemis/ennemis.h
  /Users/Faustine/Desktop/JeuVideoo/Missile/Missile.c
  /Users/Faustine/Desktop/JeuVideoo/Missile/Missile.h
+ /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.h
  /Users/Faustine/Desktop/JeuVideoo/constant.h
- /Users/Faustine/Desktop/JeuVideoo/vaisseau/vaisseau.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/alcompat.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/allegro.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/allegro_image.h
@@ -190,10 +190,10 @@ CMakeFiles/JeuVideo.dir/Missile/Missile.c.o
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/touch_input.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/transformations.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/utf8.h
-CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o
+CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o
  /Users/Faustine/Desktop/JeuVideoo/Ennemis/ennemis.h
- /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c
- /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.h
+ /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c
+ /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.h
  /Users/Faustine/Desktop/JeuVideoo/constant.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/alcompat.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/allegro.h
@@ -258,10 +258,9 @@ CMakeFiles/JeuVideo.dir/main.c.o
  /Users/Faustine/Desktop/JeuVideoo/Ennemis/ennemis.h
  /Users/Faustine/Desktop/JeuVideoo/Etoile/etoile.h
  /Users/Faustine/Desktop/JeuVideoo/Missile/missile.h
- /Users/Faustine/Desktop/JeuVideoo/Vaisseau/vaisseau.h
+ /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.h
  /Users/Faustine/Desktop/JeuVideoo/constant.h
  /Users/Faustine/Desktop/JeuVideoo/main.c
- /Users/Faustine/Desktop/JeuVideoo/vaisseau/vaisseau.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/alcompat.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/allegro.h
  /usr/local/Cellar/allegro/5.2.4.0/include/allegro5/allegro_font.h

@@ -204,32 +204,32 @@ Missile/Missile.c.s:
 	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Missile/Missile.c.s
 .PHONY : Missile/Missile.c.s
 
-Vaisseau/Vaisseau.o: Vaisseau/Vaisseau.c.o
+Vaisseau/Heros.o: Vaisseau/Heros.c.o
 
-.PHONY : Vaisseau/Vaisseau.o
+.PHONY : Vaisseau/Heros.o
 
 # target to build an object file
-Vaisseau/Vaisseau.c.o:
-	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o
-.PHONY : Vaisseau/Vaisseau.c.o
+Vaisseau/Heros.c.o:
+	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o
+.PHONY : Vaisseau/Heros.c.o
 
-Vaisseau/Vaisseau.i: Vaisseau/Vaisseau.c.i
+Vaisseau/Heros.i: Vaisseau/Heros.c.i
 
-.PHONY : Vaisseau/Vaisseau.i
+.PHONY : Vaisseau/Heros.i
 
 # target to preprocess a source file
-Vaisseau/Vaisseau.c.i:
-	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i
-.PHONY : Vaisseau/Vaisseau.c.i
+Vaisseau/Heros.c.i:
+	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.i
+.PHONY : Vaisseau/Heros.c.i
 
-Vaisseau/Vaisseau.s: Vaisseau/Vaisseau.c.s
+Vaisseau/Heros.s: Vaisseau/Heros.c.s
 
-.PHONY : Vaisseau/Vaisseau.s
+.PHONY : Vaisseau/Heros.s
 
 # target to generate assembly for a file
-Vaisseau/Vaisseau.c.s:
-	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s
-.PHONY : Vaisseau/Vaisseau.c.s
+Vaisseau/Heros.c.s:
+	$(MAKE) -f CMakeFiles/JeuVideo.dir/build.make CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.s
+.PHONY : Vaisseau/Heros.c.s
 
 main.o: main.c.o
 
@@ -276,9 +276,9 @@ help:
 	@echo "... Missile/Missile.o"
 	@echo "... Missile/Missile.i"
 	@echo "... Missile/Missile.s"
-	@echo "... Vaisseau/Vaisseau.o"
-	@echo "... Vaisseau/Vaisseau.i"
-	@echo "... Vaisseau/Vaisseau.s"
+	@echo "... Vaisseau/Heros.o"
+	@echo "... Vaisseau/Heros.i"
+	@echo "... Vaisseau/Heros.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -70,18 +70,18 @@ CMakeFiles/JeuVideo.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideoo/main.c -o CMakeFiles/JeuVideo.dir/main.c.s
 
-CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o: CMakeFiles/JeuVideo.dir/flags.make
-CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o: ../Vaisseau/Vaisseau.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o   -c /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c
+CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o: CMakeFiles/JeuVideo.dir/flags.make
+CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o: ../Vaisseau/Heros.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o   -c /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c
 
-CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c > CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.i
+CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c > CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.i
 
-CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c -o CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.s
+CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c -o CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.s
 
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o: CMakeFiles/JeuVideo.dir/flags.make
 CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o: ../Ennemis/Ennemis.c
@@ -125,7 +125,7 @@ CMakeFiles/JeuVideo.dir/Missile/Missile.c.s: cmake_force
 # Object files for target JeuVideo
 JeuVideo_OBJECTS = \
 "CMakeFiles/JeuVideo.dir/main.c.o" \
-"CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o" \
+"CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o" \
 "CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o" \
 "CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o" \
 "CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
@@ -134,7 +134,7 @@ JeuVideo_OBJECTS = \
 JeuVideo_EXTERNAL_OBJECTS =
 
 JeuVideo: CMakeFiles/JeuVideo.dir/main.c.o
-JeuVideo: CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o
+JeuVideo: CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o
 JeuVideo: CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o
 JeuVideo: CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o
 JeuVideo: CMakeFiles/JeuVideo.dir/Missile/Missile.c.o

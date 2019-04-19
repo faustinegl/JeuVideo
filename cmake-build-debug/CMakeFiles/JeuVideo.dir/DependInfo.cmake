@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/Faustine/Desktop/JeuVideoo/Ennemis/Ennemis.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
   "/Users/Faustine/Desktop/JeuVideoo/Etoile/Etoile.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
   "/Users/Faustine/Desktop/JeuVideoo/Missile/Missile.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
-  "/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
+  "/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o"
   "/Users/Faustine/Desktop/JeuVideoo/main.c" "/Users/Faustine/Desktop/JeuVideoo/cmake-build-debug/CMakeFiles/JeuVideo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

@@ -98,10 +98,10 @@
 		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/Missile/Missile.h">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.c">
+		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.c">
 			<Option target="JeuVideo"/>
 		</Unit>
-		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Vaisseau.h">
+		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/Vaisseau/Heros.h">
 			<Option target="JeuVideo"/>
 		</Unit>
 		<Unit filename="/Users/Faustine/Desktop/JeuVideoo/constant.h">

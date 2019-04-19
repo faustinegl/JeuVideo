@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/JeuVideo.dir/main.c.o"
-  "CMakeFiles/JeuVideo.dir/Vaisseau/Vaisseau.c.o"
+  "CMakeFiles/JeuVideo.dir/Vaisseau/Heros.c.o"
   "CMakeFiles/JeuVideo.dir/Ennemis/Ennemis.c.o"
   "CMakeFiles/JeuVideo.dir/Etoile/Etoile.c.o"
   "CMakeFiles/JeuVideo.dir/Missile/Missile.c.o"
