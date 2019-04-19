@@ -4,7 +4,7 @@
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 #include <allegro5/allegro_image.h>
-#include "Vaisseau/vaisseau.h"
+#include "Vaisseau/Heros.h"
 #include "Missile/missile.h"
 #include "Ennemis/ennemis.h"
 #include "Etoile/etoile.h"
@@ -44,7 +44,7 @@ int main() {
     ALLEGRO_FONT *fontBangers160;
     ALLEGRO_BITMAP *fond;
 
-    Heros vaisseau;
+    Heros heros;
     Missile missiles[NB_MAX_MISSILES];
     Ennemi ennemis[NB_MAX_ENNEMIS];
 
@@ -115,7 +115,7 @@ int main() {
     al_register_event_source(queue, al_get_keyboard_event_source());
     al_register_event_source(queue, al_get_timer_event_source(timer));
 
-    init_vaisseau(&vaisseau);
+    init_heros(&heros);
     al_set_target_backbuffer(display);
     init_missiles(missiles);
     init_ennemis(ennemis);
@@ -167,7 +167,7 @@ int main() {
                         key[RIGHT] = 1;
                         break;
                     case ALLEGRO_KEY_SPACE:
-                        lancement_missile(&vaisseau, missiles);
+                        lancement_missile(&heros, missiles);
                         break;
                 }
             } else if (event.type == ALLEGRO_EVENT_KEY_UP && waitInMilliseconds == -1) {
@@ -206,16 +206,16 @@ int main() {
                     dessin = 1;
                 } else if (!pause) {
                     if (key[UP]) {
-                        monte(&vaisseau);
+                        monte(&heros);
                     }
                     if (key[DOWN]) {
-                        descend(&vaisseau);
+                        descend(&heros);
                     }
                     if (key[LEFT]) {
-                        gauche(&vaisseau);
+                        gauche(&heros);
                     }
                     if (key[RIGHT]) {
-                        droite(&vaisseau);
+                        droite(&heros);
                     }
 
                     avance_missiles(missiles);
@@ -226,10 +226,10 @@ int main() {
                     mouvement_ennemis(ennemis);
 
 
-                    collision_missile(missiles, ennemis, &vaisseau);
-                    collision_vaisseau(&vaisseau, ennemis);
+                    collision_missile(missiles, ennemis, &heros);
+                    collision_heros(&heros, ennemis);
 
-                    if (vaisseau.vie <= 0) {
+                    if (heros.vie <= 0) {
                         gameOver = 1;
                     }
 
@@ -241,8 +241,8 @@ int main() {
                 if (waitInMilliseconds == -1) {
                     waitInMilliseconds = 5 * 60;
                 } else if (waitInMilliseconds == 0) {
-                    vaisseau.vie = 3;
-                    vaisseau.score = 0;
+                    heros.vie = 3;
+                    heros.score = 0;
                     gameOver = 0;
                     key[UP] = 0;
                     key[DOWN] = 0;
@@ -256,8 +256,8 @@ int main() {
                 al_draw_bitmap_region(fond, x, y, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, 0);
                 affiche_ennemis(ennemis);
                 affiche_missiles(missiles);
-                affiche_vaisseau(&vaisseau);
-                affiche_infos(vaisseau, fontBangers60, fontBangers160);
+                affiche_heros(&heros);
+                affiche_infos(heros, fontBangers60, fontBangers160);
 
                 if (pause) {
                     al_draw_textf(fontBangers160, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
@@ -284,7 +284,7 @@ int main() {
          * Libération de la mémoire allouée dynamiquement :
          */
         al_destroy_bitmap(fond);
-        al_destroy_bitmap(vaisseau.image);
+        al_destroy_bitmap(heros.image);
         al_destroy_font(fontBangers60);
         al_destroy_font(fontBangers160);
         al_destroy_event_queue(queue);

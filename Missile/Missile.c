@@ -33,13 +33,13 @@ void avance_missiles(Missile missiles[]) {
     }
 }
 
-void lancement_missile(Heros *vaisseau, Missile missiles[]) {
+void lancement_missile(Heros *heros, Missile missiles[]) {
     int i = 0;
     for (i = 0; i < NB_MAX_MISSILES; i++) {
         if (!missiles[i].actif) {
             missiles[i].actif = 1;
-            missiles[i].x = vaisseau->x + vaisseau->width;
-            missiles[i].y = vaisseau->y + vaisseau->height / 2;
+            missiles[i].x = heros->x + heros->width;
+            missiles[i].y = heros->y + heros->height / 2;
             break;
         }
     }

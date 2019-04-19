@@ -6,7 +6,7 @@
 #define JEUVIDEO_MISSILE_H
 #define NB_MAX_MISSILES 12
 #include <allegro5/allegro_primitives.h>
-#include "../vaisseau/vaisseau.h"
+#include "../Vaisseau/Heros.h"
 #include "../constant.h"
 
 
@@ -22,7 +22,7 @@ void affiche_missiles(Missile missiles[]);
 
 void avance_missiles(Missile missiles[]);
 
-void lancement_missile(Heros *vaisseau, Missile missiles[]);
+void lancement_missile(Heros *heros, Missile missiles[]);
 
 void collision_missile(Missile missiles[], Ennemi ennemis[], Heros *vaisseau);
 

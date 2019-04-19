@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(JeuVideo C)
 set(CMAKE_C_STANDARD 99)
-add_executable(JeuVideo main.c Vaisseau/Vaisseau.c Vaisseau/Vaisseau.h Ennemis/Ennemis.c Ennemis/Ennemis.h Etoile/Etoile.c Etoile/Etoile.h Missile/Missile.c Missile/Missile.h constant.h)
+add_executable(JeuVideo main.c Vaisseau/Heros.c Vaisseau/Heros.h Ennemis/Ennemis.c Ennemis/Ennemis.h Etoile/Etoile.c Etoile/Etoile.h Missile/Missile.c Missile/Missile.h constant.h)
 INCLUDE_DIRECTORIES(/usr/local/Cellar/allegro/5.2.4.0/include)
 LINK_DIRECTORIES(/usr/local/Cellar/allegro/5.2.4.0/lib)
 file(GLOB LIBRARIES "/usr/local/Cellar/allegro/5.2.4.0/lib/*.dylib")

@@ -6,23 +6,24 @@
 
 void init_ennemis(Ennemi ennemis[]) {
     int i = 0;
-    for (i = 0; i < NB_MAX_ENNEMIS; i++) {
+    for (i = 0; i < NB_MAX_ENNEMIS; i++)
+    {
         ennemis[i].vitesse = 2 + rand() % 3;
         ennemis[i].actif = 0;
-        ennemis[i].width = 10 + rand() % 20;
-        ennemis[i].height = ennemis[i].width * 2 / 3;
-        ennemis->image = al_load_bitmap("../images/mechantponey.png");
+        ennemis[i].width = 0;
+        ennemis[i].height = 80;
+        ennemis[i].image = al_load_bitmap("../images/mechantponey.png");
     }
-        if (!ennemis->image) {
-            ennemis->image = al_create_bitmap(ennemis->width, ennemis->height);
-            al_set_target_bitmap(ennemis->image);
-            al_draw_bitmap_region(al_load_bitmap("../images/fond 1.jpg"), 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, 0);
-            al_draw_filled_rectangle(300,250,ennemis->width,ennemis->height,al_map_rgb(255,0,0));
-        }
-        else {
-            ennemis->width=al_get_bitmap_width(ennemis->image);
-            ennemis->height=al_get_bitmap_height(ennemis->image);
-        }
+    if (!ennemis->image) {
+        ennemis->image = al_create_bitmap(ennemis->width, ennemis->height);
+        al_set_target_bitmap(ennemis->image);
+        //al_draw_bitmap_region(al_load_bitmap("../images/fond 1.jpg"), 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, 0);
+        al_draw_filled_rectangle(300,250,ennemis->width,ennemis->height,al_map_rgb(255,0,0));
+    }
+    else {
+        ennemis->width=al_get_bitmap_width(ennemis->image);
+        ennemis->height=al_get_bitmap_height(ennemis->image);
+    }
 }
 void affiche_ennemis(Ennemi ennemis[]) {
     int i = 0;
