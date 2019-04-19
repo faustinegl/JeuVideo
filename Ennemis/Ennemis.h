@@ -17,6 +17,7 @@ typedef struct {
     int vitesse;
     int width, height;
     int actif;
+    ALLEGRO_BITMAP *image;
 } Ennemi;
 
 void init_ennemis(Ennemi ennemis[]);

@@ -42,11 +42,12 @@ int main() {
     ALLEGRO_TIMER *timer;
     ALLEGRO_FONT *fontBangers60;
     ALLEGRO_FONT *fontBangers160;
+    ALLEGRO_BITMAP *fond;
 
     Heros vaisseau;
     Missile missiles[NB_MAX_MISSILES];
     Ennemi ennemis[NB_MAX_ENNEMIS];
-    Etoile etoiles[NB_MAX_ETOILES];
+
 
     if (!al_init()) {
         erreur("Initialisation Allegro");
@@ -73,27 +74,41 @@ int main() {
     }
 
     display = al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT);
-    if (!display) {
-        erreur("Création de la fenêtre");
-    }
+
+    int x, y, tx, ty;
+    int pas;
+
+    fond = al_load_bitmap("../images/fond 1.jpg");
+    if (!fond)
+        erreur("al_load_bitmap()");
+
+    tx = al_get_bitmap_width(fond);
+    ty = al_get_bitmap_height(fond);
+
+
+    x = y = 0;
+    pas = 5;
+
+    al_get_keyboard_state(&key);
+
 
     al_set_window_title(display, "Combat spacial");
 
     fontBangers60 = al_load_ttf_font("../fonts/bangers/bangers-Regular.ttf", 60, 0);
     fontBangers160 = al_load_ttf_font("../fonts/bangers/bangers-Regular.ttf", 160, 0);
     if (!fontBangers60 || !fontBangers160) {
-        erreur("Chargement de la police bangers");
-    }
+            erreur("Chargement de la police bangers");
+        }
 
     queue = al_create_event_queue();
     if (!queue) {
-        erreur("Création de l'event queue");
-    }
+            erreur("Création de l'event queue");
+        }
 
     timer = al_create_timer(1.0 / 60);
     if (!timer) {
-        erreur("Création du timer");
-    }
+            erreur("Création du timer");
+        }
 
 
     al_register_event_source(queue, al_get_display_event_source(display));
@@ -104,158 +119,178 @@ int main() {
     al_set_target_backbuffer(display);
     init_missiles(missiles);
     init_ennemis(ennemis);
-    init_etoiles(etoiles);
+
 
     al_start_timer(timer);
 
     do {
-
         ALLEGRO_EVENT event = {0};
 
-        al_wait_for_event(queue, &event);
+            al_wait_for_event(queue, &event);
 
-        if (event.type == ALLEGRO_EVENT_DISPLAY_CLOSE) {
-            fin = 1;
-        } else if (event.type == ALLEGRO_EVENT_KEY_DOWN && !pause && waitInMilliseconds == -1) {
-            switch (event.keyboard.keycode) {
-                case ALLEGRO_KEY_UP:
-                case ALLEGRO_KEY_W: // Z
-                    key[UP] = 1;
-                    break;
-                case ALLEGRO_KEY_DOWN:
-                case ALLEGRO_KEY_S:
-                    key[DOWN] = 1;
-                    break;
-                case ALLEGRO_KEY_LEFT:
-                case ALLEGRO_KEY_A: // Q
-                    key[LEFT] = 1;
-                    break;
-                case ALLEGRO_KEY_RIGHT:
-                case ALLEGRO_KEY_D:
-                    key[RIGHT] = 1;
-                    break;
-                case ALLEGRO_KEY_SPACE:
-                    lancement_missile(&vaisseau, missiles);
-                    break;
+            if (al_key_down(&key, ALLEGRO_KEY_LEFT))
+
+                x = (x - pas < 0) ? 0 : x - pas;
+
+            if (al_key_down(&key, ALLEGRO_KEY_RIGHT))
+                x = (x + pas > tx - SCREEN_WIDTH) ? tx - SCREEN_WIDTH : x + pas;
+
+            if (al_key_down(&key, ALLEGRO_KEY_UP))
+                y = (y - pas < 0) ? 0 : y - pas;
+
+            if (al_key_down(&key, ALLEGRO_KEY_DOWN))
+                y = (y + pas > ty - SCREEN_HEIGHT) ? ty - SCREEN_HEIGHT : y + pas;
+
+
+            if (!display) {
+                erreur("al_create_display()");
+                return display;
             }
-        } else if (event.type == ALLEGRO_EVENT_KEY_UP && waitInMilliseconds == -1) {
-            switch (event.keyboard.keycode) {
-                case ALLEGRO_KEY_UP:
-                case ALLEGRO_KEY_W: // Z
-                    key[UP] = 0;
-                    break;
-                case ALLEGRO_KEY_DOWN:
-                case ALLEGRO_KEY_S:
-                    key[DOWN] = 0;
-                    break;
-                case ALLEGRO_KEY_LEFT:
-                case ALLEGRO_KEY_A: // Q
-                    key[LEFT] = 0;
-                    break;
-                case ALLEGRO_KEY_RIGHT:
-                case ALLEGRO_KEY_D:
-                    key[RIGHT] = 0;
-                    break;
-                case ALLEGRO_KEY_ESCAPE:
-                    fin = 1;
-                    break;
-                case ALLEGRO_KEY_P:
-                    key[UP] = 0;
-                    key[DOWN] = 0;
-                    key[LEFT] = 0;
-                    key[RIGHT] = 0;
-                    pause = !pause;
+            if (event.type == ALLEGRO_EVENT_DISPLAY_CLOSE) {
+                fin = 1;
+            } else if (event.type == ALLEGRO_EVENT_KEY_DOWN && !pause && waitInMilliseconds == -1) {
+                switch (event.keyboard.keycode) {
+                    case ALLEGRO_KEY_UP:
+                    case ALLEGRO_KEY_W: // Z
+                        key[UP] = 1;
+                        break;
+                    case ALLEGRO_KEY_DOWN:
+                    case ALLEGRO_KEY_S:
+                        key[DOWN] = 1;
+                        break;
+                    case ALLEGRO_KEY_LEFT:
+                    case ALLEGRO_KEY_A: // Q
+                        key[LEFT] = 1;
+                        break;
+                    case ALLEGRO_KEY_RIGHT:
+                    case ALLEGRO_KEY_D:
+                        key[RIGHT] = 1;
+                        break;
+                    case ALLEGRO_KEY_SPACE:
+                        lancement_missile(&vaisseau, missiles);
+                        break;
+                }
+            } else if (event.type == ALLEGRO_EVENT_KEY_UP && waitInMilliseconds == -1) {
+                switch (event.keyboard.keycode) {
+                    case ALLEGRO_KEY_UP:
+                    case ALLEGRO_KEY_W: // Z
+                        key[UP] = 0;
+                        break;
+                    case ALLEGRO_KEY_DOWN:
+                    case ALLEGRO_KEY_S:
+                        key[DOWN] = 0;
+                        break;
+                    case ALLEGRO_KEY_LEFT:
+                    case ALLEGRO_KEY_A: // Q
+                        key[LEFT] = 0;
+                        break;
+                    case ALLEGRO_KEY_RIGHT:
+                    case ALLEGRO_KEY_D:
+                        key[RIGHT] = 0;
+                        break;
+                    case ALLEGRO_KEY_ESCAPE:
+                        fin = 1;
+                        break;
+                    case ALLEGRO_KEY_P:
+                        key[UP] = 0;
+                        key[DOWN] = 0;
+                        key[LEFT] = 0;
+                        key[RIGHT] = 0;
+                        pause = !pause;
+                        dessin = 1;
+                        break;
+                }
+            } else if (event.type == ALLEGRO_EVENT_TIMER) {
+                if (waitInMilliseconds > 0) {
+                    waitInMilliseconds--;
                     dessin = 1;
-                    break;
-            }
-        } else if (event.type == ALLEGRO_EVENT_TIMER) {
-            if (waitInMilliseconds > 0) {
-                waitInMilliseconds--;
-                dessin = 1;
-            } else if (!pause) {
-                if (key[UP]) {
-                    monte(&vaisseau);
+                } else if (!pause) {
+                    if (key[UP]) {
+                        monte(&vaisseau);
+                    }
+                    if (key[DOWN]) {
+                        descend(&vaisseau);
+                    }
+                    if (key[LEFT]) {
+                        gauche(&vaisseau);
+                    }
+                    if (key[RIGHT]) {
+                        droite(&vaisseau);
+                    }
+
+                    avance_missiles(missiles);
+
+                    apparition_ennemis(ennemis);
+
+
+                    mouvement_ennemis(ennemis);
+
+
+                    collision_missile(missiles, ennemis, &vaisseau);
+                    collision_vaisseau(&vaisseau, ennemis);
+
+                    if (vaisseau.vie <= 0) {
+                        gameOver = 1;
+                    }
+
+                    dessin = 1;
                 }
-                if (key[DOWN]) {
-                    descend(&vaisseau);
-                }
-                if (key[LEFT]) {
-                    gauche(&vaisseau);
-                }
-                if (key[RIGHT]) {
-                    droite(&vaisseau);
-                }
-
-                avance_missiles(missiles);
-
-                apparition_ennemis(ennemis);
-                apparition_etoiles(etoiles);
-
-                mouvement_ennemis(ennemis);
-                mouvement_etoiles(etoiles);
-
-                collision_missile(missiles, ennemis, &vaisseau);
-                collision_vaisseau(&vaisseau, ennemis);
-
-                if (vaisseau.vie <= 0) {
-                    gameOver = 1;
-                }
-
-                dessin = 1;
-            }
-        }
-
-        if (gameOver) {
-            if (waitInMilliseconds == -1) {
-                waitInMilliseconds = 5 * 60;
-            } else if (waitInMilliseconds == 0) {
-                vaisseau.vie = 3;
-                vaisseau.score = 0;
-                gameOver = 0;
-                key[UP] = 0;
-                key[DOWN] = 0;
-                key[LEFT] = 0;
-                key[RIGHT] = 0;
-                waitInMilliseconds = -1;
-            }
-        }
-
-        if (dessin && al_is_event_queue_empty(queue)) {
-            al_clear_to_color(NOIR);
-            affiche_etoiles(etoiles);
-            affiche_ennemis(ennemis);
-            affiche_missiles(missiles);
-            affiche_vaisseau(&vaisseau);
-            affiche_infos(vaisseau, fontBangers60, fontBangers160);
-
-            if (pause) {
-                al_draw_textf(fontBangers160, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
-                              SCREEN_HEIGHT / 2 - al_get_font_ascent(fontBangers160), ALLEGRO_ALIGN_CENTER, "Pause");
             }
 
             if (gameOver) {
-                al_draw_textf(fontBangers60, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
-                              SCREEN_HEIGHT - al_get_font_ascent(fontBangers160) - 20, ALLEGRO_ALIGN_CENTER,
-                              (waitInMilliseconds / 60) + 1 > 1 ? "Nouvelle partie dans %d secondes..." : "Nouvelle partie dans %d seconde...", (waitInMilliseconds / 60) + 1);
+                if (waitInMilliseconds == -1) {
+                    waitInMilliseconds = 5 * 60;
+                } else if (waitInMilliseconds == 0) {
+                    vaisseau.vie = 3;
+                    vaisseau.score = 0;
+                    gameOver = 0;
+                    key[UP] = 0;
+                    key[DOWN] = 0;
+                    key[LEFT] = 0;
+                    key[RIGHT] = 0;
+                    waitInMilliseconds = -1;
+                }
             }
 
-            al_flip_display();
+            if (dessin && al_is_event_queue_empty(queue)) {
+                al_draw_bitmap_region(fond, x, y, SCREEN_WIDTH, SCREEN_HEIGHT, 0, 0, 0);
+                affiche_ennemis(ennemis);
+                affiche_missiles(missiles);
+                affiche_vaisseau(&vaisseau);
+                affiche_infos(vaisseau, fontBangers60, fontBangers160);
 
-            dessin = 0;
-        }
+                if (pause) {
+                    al_draw_textf(fontBangers160, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
+                                  SCREEN_HEIGHT / 2 - al_get_font_ascent(fontBangers160), ALLEGRO_ALIGN_CENTER,
+                                  "Pause");
+                }
 
-    } while (!fin);
+                if (gameOver) {
+                    al_draw_textf(fontBangers60, al_map_rgb(255, 255, 0), SCREEN_WIDTH / 2,
+                                  SCREEN_HEIGHT - al_get_font_ascent(fontBangers160) - 20, ALLEGRO_ALIGN_CENTER,
+                                  (waitInMilliseconds / 60) + 1 > 1 ? "Nouvelle partie dans %d secondes..."
+                                                                    : "Nouvelle partie dans %d seconde...",
+                                  (waitInMilliseconds / 60) + 1);
+                }
 
-    /*
-     * Libération de la mémoire allouée dynamiquement :
-     */
+                al_flip_display();
 
-    al_destroy_bitmap(vaisseau.image);
-    al_destroy_font(fontBangers60);
-    al_destroy_font(fontBangers160);
-    al_destroy_event_queue(queue);
-    al_destroy_display(display);
-    al_destroy_timer(timer);
+                dessin = 0;
+            }
 
-    return 0;
+        } while (!fin);
+
+        /*
+         * Libération de la mémoire allouée dynamiquement :
+         */
+        al_destroy_bitmap(fond);
+        al_destroy_bitmap(vaisseau.image);
+        al_destroy_font(fontBangers60);
+        al_destroy_font(fontBangers160);
+        al_destroy_event_queue(queue);
+        al_destroy_display(display);
+        al_destroy_timer(timer);
+
+        return 0;
+
 }
